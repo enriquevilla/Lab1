@@ -48,6 +48,16 @@ section ul {
     margin: 0px;
 }
 
+section ol {
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: small;
+}
+
+.span-use {
+    color: green;
+}
+
 /* footer styles */
 
 footer {
