@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+}
+
+/* header styles */
+
+.header-name {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+.header-details {
+    text-align: center;
+    font-style: normal;
+    font-size: small;
+    margin-top: 6px;
+}
+
+.header-image {
+    max-width: 10%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* section styles */
+
+.section-title {
+    font-size: initial;
+    margin-bottom: 4px;
+    margin-top: 30px;
+}
+
+.section-details {
+    margin-top: 0px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.section-dates {
+    font-style: italic;
+    padding-left: 40px;
+    margin: 0px;
+}
+
+section ul {
+    margin: 0px;
+}
+
+/* footer styles */
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+    font-size: xx-small;
+}
