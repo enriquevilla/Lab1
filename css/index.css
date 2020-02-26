@@ -1,0 +1,142 @@
+body {
+    font-family: sans-serif;
+    color: midnightblue;
+}
+
+/* header styles */
+
+.header-name {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.header-details {
+    text-align: center;
+    font-style: normal;
+    font-size: small;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.header-image {
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+nav {
+    margin-top: 4px;
+    text-align: center;
+}
+
+/* section styles */
+
+.section-title {
+    font-size: 1em;
+    margin-bottom: 4px;
+    margin-top: 30px;
+}
+
+.section-title:hover {
+    font-size: 1.5em;
+    transition: font-size .5s ease;
+}
+
+.section-details {
+    margin-top: 0px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.section-dates {
+    font-style: italic;
+    padding-left: 40px;
+    margin: 0px;
+}
+
+section ul {
+    margin: 0px;
+}
+
+section ol {
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: small;
+}
+
+.span-use {
+    color: green;
+}
+
+/* footer styles */
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+    font-size: xx-small;
+}
+
+/* PC specific css */
+
+@media (min-width: 991px) {
+    body {
+        color: forestgreen;
+        background-color: rgb(193, 255, 193);
+    }
+
+    .section-title {
+        font-size: 1.5em;
+    }
+
+    .header-name {
+        animation: name 3s infinite alternate;
+    }
+
+    @keyframes name {
+        from {
+            font-size: 32px;
+        }
+        to {
+            font-size: 36px;
+        }
+    }
+
+    nav > .header-details {
+        font-weight: bold;
+    }
+}
+
+/* Tablet specific CSS */
+
+@media (min-width: 600px) and (max-width: 990px) {
+    body {
+        margin: 0 50px;
+        color: brown;
+        background-color: moccasin;
+    }
+    .header-image {
+        width: 12%;
+    }
+}
+
+/* Mobile specific CSS */
+
+@media (max-width: 599px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .header-image {
+        left: 10px;
+        top: 10px;
+        width: 10%;
+    }
+    
+    nav > .header-details {
+        font-weight: bold;
+        color: red;
+    }
+}
