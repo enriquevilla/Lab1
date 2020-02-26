@@ -87,6 +87,10 @@ footer {
         background-color: rgb(193, 255, 193);
     }
 
+    main {
+        overflow: auto;
+    }
+
     .section-title {
         font-size: 1.5em;
     }
@@ -107,6 +111,12 @@ footer {
     nav > .header-details {
         font-weight: bold;
     }
+
+    main section {
+        width: 50%;
+        float: left;
+    }
+
 }
 
 /* Tablet specific CSS */
@@ -117,8 +127,18 @@ footer {
         color: brown;
         background-color: moccasin;
     }
+
     .header-image {
         width: 12%;
+    }
+
+    section {
+        border-bottom-style: solid;
+        border-bottom-color: rgba(165, 42, 42, 0.5);
+    }
+
+    ul {
+        padding-bottom: 20px;
     }
 }
 
@@ -138,5 +158,14 @@ footer {
     nav > .header-details {
         font-weight: bold;
         color: red;
+    }
+
+    section {
+        border-bottom-style: solid;
+        border-bottom-color: rgba(0, 0, 255, 0.5);
+    }
+
+    ul {
+        padding-bottom: 20px;
     }
 }
